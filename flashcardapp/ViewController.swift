@@ -6,20 +6,34 @@
 //
 
 import UIKit
-class AppData
+class AppData: Encodable
 {
 
     
     
     
 }
-class card
+class card: Codable
 {
     var question = ""
     var answer = ""
     
     
 }
+
+class cardSetClass: Codable {
+    
+    var setName = ""
+    var setColor = ""
+    var setImage = ""
+    
+    init(setName: String, setColor: String) {
+        self.setName = setName
+        self.setColor = setColor
+    }
+    
+}
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
