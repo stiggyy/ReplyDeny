@@ -8,8 +8,15 @@
 import UIKit
 class AppData
 {
+
     
     
+    
+}
+class card
+{
+    var question = ""
+    var answer = ""
     
     
 }
