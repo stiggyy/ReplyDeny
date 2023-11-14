@@ -6,7 +6,13 @@
 //
 
 import UIKit
-
+class AppData
+{
+    
+    
+    
+    
+}
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
